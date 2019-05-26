@@ -25,6 +25,7 @@ Improvements needed
 
 * ability to run with user input, not just in irb. Started this work with `user_assist` method
 * allow custom fonts
+* image api service to pull background images from free sites based on keywords
 * generated images are timestamped so they don't overwrite eachother
 * a user interface
 * heroku hosting
