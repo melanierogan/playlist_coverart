@@ -3,4 +3,4 @@
 source "https://rubygems.org"
 
 gem "rspec"
-gem "rmagick"
+gem "rmagick", "~> 2.13.1"

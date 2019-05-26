@@ -9,3 +9,21 @@ This is then saved in png format set to the size acceptable for Spotify image up
 
 Usage 
 ----------
+
+* `git clone`
+* run `bundle` in the directory you cloned in
+* place the background image you want to use in `./img` and call it `background.png`
+* place your logo in `./img`
+* run irb
+* require './lib/cover'
+* run `OverlayGenerator.new("The text you want", "./img/thelogoyouwant.png").perform`
+* your image is saved in `./img/generated`
+
+
+Improvements needed 
+--------
+
+* ability to run with user input, not just in irb. Started this work with `user_assist` method
+* generated images are timestamped so they don't overwrite eachother
+* a user interface
+* heroku hosting
