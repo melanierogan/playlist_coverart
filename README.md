@@ -24,6 +24,7 @@ Improvements needed
 --------
 
 * ability to run with user input, not just in irb. Started this work with `user_assist` method
+* allow custom fonts
 * generated images are timestamped so they don't overwrite eachother
 * a user interface
 * heroku hosting

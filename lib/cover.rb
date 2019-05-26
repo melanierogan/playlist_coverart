@@ -10,9 +10,9 @@ class OverlayGenerator
   def initialize(text, logo_path)
     @text = text
     @annotation = Magick::Draw.new.tap do |text|
-      text.font = "Helvetica"
-      text.pointsize = 60
-      text.font_weight = Magick::BoldWeight
+      text.font = "Library/Fonts/somethingwild-Regular.otf"
+      text.pointsize = 90
+      # text.font_weight = Magick::BoldWeight
       text.fill = "black"
       text.gravity = Magick::CenterGravity
     end
@@ -44,7 +44,7 @@ class OverlayGenerator
   end
 
   def save_image
-    background.write("./img/generated/generated_image.png")
+    background.write("./img/generated/generated_image.jpg")
   end
 
   def background
